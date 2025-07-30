@@ -8,9 +8,8 @@
 
 This project demonstrates the development of a **custom driver** to interface an **HD44780-compatible 16x2 character LCD** with an **STM32 microcontroller** using **4-bit communication mode**. 
 
-Unlike relying on STM32 HAL's built-in LCD libraries, this driver is written **from scratch** to provide a deeper understanding of:
+this driver is written **from scratch** to provide a deeper understanding of:
 
-- Low-level GPIO control  
 - Bitwise manipulation  
 - LCD command protocols  
 - Embedded C modular design  
