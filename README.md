@@ -1,16 +1,41 @@
-# customLCD4STM
-📘 Project Title:
-Custom LCD Driver Development for STM32 Microcontroller (HD44780 16x2 in 4-bit mode)
+# 📘 CustomLCD4STM
 
-📝 Project Description:
+**Custom LCD Driver Development for STM32 Microcontroller (HD44780 16x2 in 4-bit mode)**
 
-This project involves the step-by-step development of a custom driver to interface an HD44780-compatible 16x2 LCD with an STM32 microcontroller using 4-bit mode. The goal is to build a lightweight, modular, and reusable driver from scratch without relying on external libraries like HAL’s LCD utilities.
+---
 
-The project is designed to enhance low-level understanding of microcontroller peripheral control, bitwise operations, GPIO configuration, and LCD communication protocols.
+## 📝 Project Description
 
-The driver will support core functionalities such as:
+This project demonstrates the development of a **custom driver** to interface an **HD44780-compatible 16x2 character LCD** with an **STM32 microcontroller** using **4-bit communication mode**. 
 
-Sending data/commands in 4-bit mode
-Cursor and display shifting
-Entry mode configuration
-Clear display, return home, and display control
+Unlike relying on STM32 HAL's built-in LCD libraries, this driver is written **from scratch** to provide a deeper understanding of:
+
+- Low-level GPIO control  
+- Bitwise manipulation  
+- LCD command protocols  
+- Embedded C modular design  
+
+---
+
+## 🎯 Key Features
+
+- ✅ 4-bit communication mode (saves GPIO pins)  
+- ✅ Send **commands** and **data** to the LCD  
+- ✅ Display and cursor shift functionality  
+- ✅ Entry mode configuration  
+- ✅ Display ON/OFF, cursor ON/OFF, blink control  
+- ✅ Clear display and return home functions  
+- ✅ Modular code for easy reuse and portability
+
+---
+
+## 🧰 Tools and Components
+
+- **Microcontroller**: STM32 (tested on STM32F103C8T6 "Blue Pill")  
+- **Display**: HD44780 16x2 LCD  
+- **Interface**: 4-bit data mode using GPIO pins  
+- **Language**: Embedded C  
+- **IDE**: STM32CubeIDE / Keil / PlatformIO  
+- **No HAL LCD utility used** – fully custom implementation
+
+---
