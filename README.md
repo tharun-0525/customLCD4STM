@@ -31,11 +31,10 @@ Unlike relying on STM32 HAL's built-in LCD libraries, this driver is written **f
 
 ## 🧰 Tools and Components
 
-- **Microcontroller**: STM32 (tested on STM32F103C8T6 "Blue Pill")  
-- **Display**: HD44780 16x2 LCD  
-- **Interface**: 4-bit data mode using GPIO pins  
+- **Microcontroller**: STM32 (tested on STM32F303RE "nucleo")  
+- **Display**: HD44780 16x2 LCD
 - **Language**: Embedded C  
-- **IDE**: STM32CubeIDE / Keil / PlatformIO  
+- **IDE**: STM32CubeIDE
 - **No HAL LCD utility used** – fully custom implementation
 
 ---
