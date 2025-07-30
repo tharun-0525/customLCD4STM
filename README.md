@@ -6,7 +6,7 @@
 
 ## 📝 Project Description
 
-This project demonstrates the development of a **custom driver** to interface an **HD44780-compatible 16x2 character LCD** with an **STM32 microcontroller** using **4-bit communication mode**. 
+This project demonstrates the development of a **custom driver** to interface an **HD44780-compatible 16x2 character LCD** with an **STM32 microcontroller** . 
 
 this driver is written **from scratch** to provide a deeper understanding of:
 
